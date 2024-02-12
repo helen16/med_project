@@ -17,6 +17,7 @@
     display: grid;
     grid-template-columns: 0.1fr 1.5fr 8fr;
     grid-gap: 10px;
+    padding-top: 10%;
   }
   
   .signup-text {
