@@ -4,7 +4,7 @@ import Landing_Page from './Components/Landing_Page/Landing_Page';
 import Navbar from './Components/Navbar/Navbar';
 import Sign_Up from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
-
+import InstantConsultation from './Components/InstantConsultation/InstantConsultation';  
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
               <Route path='/' element={<Landing_Page/>}></Route>
               <Route path='/Sign_Up' element={<Sign_Up/>}></Route>
               <Route path='/Login' element={<Login/>}></Route>
-
+              <Route path="/instant-consultation" element={<InstantConsultation />} />
               </Routes>
             
         </BrowserRouter>
