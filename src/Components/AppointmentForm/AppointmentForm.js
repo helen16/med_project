@@ -67,7 +67,7 @@ const AppointmentFormIC = ({ doctorName, doctorSpeciality, onSubmit }) => {
             <option value="14:00 AM">14:00 AM</option>
             <option value="15:00 AM">15:00 AM</option>
             <option value="16:00 AM">16:00 AM</option>
-          />
+          </select>
         </div>
 
         <button type="submit">Book Now</button>
